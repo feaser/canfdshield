@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/pragmalin/Development/CanFdShield/hardware/canfdshield.kicad_sch</source>
+    <date>2025-05-14T20:05:35+0200</date>
+    <tool>Eeschema 9.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CAN FD Shield</title>
+        <company>Feaser</company>
+        <rev>A</rev>
+        <date>2025-05-14</date>
+        <source>canfdshield.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810261514_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C19666</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1810261514_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C19666"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e1801dc-349c-41b8-99f9-8c8a3251b5c7</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ea94393-386c-488b-bbcd-e2d91cd3193e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee35c79b-3fb7-48a5-b049-0a658a4f5bfd</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="LCSC">C965804</field>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="LCSC" value="C965804"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3a39b04-1a13-4e80-a78d-9be5fe36c747</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Power</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="LCSC">C6332201</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C6332201"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d71773</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Analog</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="LCSC">C6332199</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C6332199"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d72f1c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Digital/PWM</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="LCSC">C6332203</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C6332203"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d72368</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Digital/PWM</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="LCSC">C6332201</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C6332201"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d734d0</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>DSUB9M</value>
+      <footprint>Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811071522_Nextron-Nextronics-Engineering-Z-SUBDRAM602A002_C115169.pdf</datasheet>
+      <description>9-pin D-SUB connector, pins (male), Mounting Hole</description>
+      <fields>
+        <field name="LCSC">C426221</field>
+        <field name="Footprint">Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1811071522_Nextron-Nextronics-Engineering-Z-SUBDRAM602A002_C115169.pdf</field>
+        <field name="Description">9-pin D-SUB connector, pins (male), Mounting Hole</field>
+      </fields>
+      <libsource lib="Connector" part="DE9_Pins_MountingHoles" description="9-pin D-SUB connector, pins (male), Mounting Hole"/>
+      <property name="LCSC" value="C426221"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="DSUB DB9"/>
+      <property name="ki_fp_filters" value="DSUB*Pins*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05b341c3-6185-4e0c-b99e-2590f3276e00</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Rterm</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a03a9b2-08fb-4cf9-9411-ae6f696f8619</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>737b1a67-a273-497d-9333-b5b93ded56b4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1200T5E_C17437.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17437</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1200T5E_C17437.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C17437"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>182ab68d-b43f-47ad-926b-2815f8ddeaf9</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5100T5E_C23193.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23193</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5100T5E_C23193.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C23193"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e82234a-5e94-4e77-8b3a-38b5809de7d6</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TCAN3413DR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/tcan3413</datasheet>
+      <description>High-Speed CANFD Transceiver, 8Mbps, 3.3V supply, low power standby mode, low voltage I/O support, SOIC-8</description>
+      <fields>
+        <field name="LCSC">C22433320</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/tcan3413</field>
+        <field name="Description">High-Speed CANFD Transceiver, 8Mbps, 3.3V supply, low power standby mode, low voltage I/O support, SOIC-8</field>
+      </fields>
+      <libsource lib="Library" part="TCAN3413DR" description="High-Speed CANFD Transceiver, 8Mbps, 3.3V supply, low power standby mode, low voltage I/O support, SOIC-8"/>
+      <property name="LCSC" value="C22433320"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="High-Speed CAN Transceiver"/>
+      <property name="ki_fp_filters" value="*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4aad7526-d87f-46a4-81d9-02546551bd38</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="DE9_Pins_MountingHoles">
+      <description>9-pin D-SUB connector, pins (male), Mounting Hole</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DSUB*Pins*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DE9_Pins_MountingHoles</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">9-pin D-SUB connector, pins (male), Mounting Hole</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+        <field name="Sim.Pin">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Library" part="TCAN3413DR">
+      <description>High-Speed CANFD Transceiver, 8Mbps, 3.3V supply, low power standby mode, low voltage I/O support, SOIC-8</description>
+      <docs>https://www.ti.com/lit/gpn/tcan3413</docs>
+      <footprints>
+        <fp>*TSOT?23*</fp>
+        <fp>*SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCAN3413DR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/tcan3413</field>
+        <field name="Description">High-Speed CANFD Transceiver, 8Mbps, 3.3V supply, low power standby mode, low voltage I/O support, SOIC-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="tri_state"/>
+        <pin num="5" name="VIO" type="input"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="STB" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Library">
+      <uri>/home/pragmalin/Development/CanFdShield/hardware/Library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="VIO" pintype="input"/>
+    </net>
+    <net code="2" name="/5V" class="Default">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="3" name="/A0" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="4" name="/A1" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="5" name="/A2" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="6" name="/A3" class="Default">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="7" name="/A4" class="Default">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="8" name="/A5" class="Default">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="9" name="/AREF" class="Default">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="/D0" class="Default">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="11" name="/D1" class="Default">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="/D2" class="Default">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="/D3" class="Default">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="/D4" class="Default">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="/D5" class="Default">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="/D6" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="/D7" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="/D8" class="Default">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="/D9" class="Default">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="/D10" class="Default">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="/D11" class="Default">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="/D12" class="Default">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="/D13" class="Default">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="/IOREF" class="Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="/Vin" class="Default">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="/~{RESET}" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="CAN_HI" class="Default">
+      <node ref="J5" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="CAN_LO" class="Default">
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="FDCAN_RX" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="RXD" pintype="tri_state"/>
+    </net>
+    <net code="30" name="FDCAN_TX" class="Default">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="TXD" pintype="input"/>
+    </net>
+    <net code="31" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="32" name="Net-(D3-K)" class="Default">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(JP1-B)" class="Default">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(U1-STB)" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="STB" pintype="input"/>
+    </net>
+    <net code="35" name="unconnected-(J1-Pin_1-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(J5-PAD-Pad0)" class="Default">
+      <node ref="J5" pin="0" pinfunction="PAD" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(J5-Pad1)" class="Default">
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(J5-Pad4)" class="Default">
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J5-Pad5)" class="Default">
+      <node ref="J5" pin="5" pinfunction="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J5-Pad6)" class="Default">
+      <node ref="J5" pin="6" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J5-Pad8)" class="Default">
+      <node ref="J5" pin="8" pinfunction="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J5-Pad9)" class="Default">
+      <node ref="J5" pin="9" pinfunction="9" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
