@@ -1,0 +1,8 @@
+# KiCad backup files
+canfdshield-backups/
+hardware/Library.bak
+
+# KiCad temporary files
+fp-info-cache
+
+
