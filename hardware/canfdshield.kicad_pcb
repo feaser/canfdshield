@@ -1348,6 +1348,198 @@
 			)
 		)
 	)
+	(footprint "Jlcpcb_MountingHole:JLCPCB_MountingHole_1.152mm"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "5413c9c6-fd14-4f07-8f45-0bfc2d88952f")
+		(at 154.04 56.6)
+		(descr "Mounting Hole 2.1mm, no annular")
+		(tags "mounting hole 2.1mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "e680e076-807b-468c-b2e7-273fc4d61f2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.152mm"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "cd76cab3-b683-4ab1-9892-9799cc55f62a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47f0c817-94b2-4c6c-a710-ec5d6c1356bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa23c030-d4ad-4d15-8fe6-9531e03f3c6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d512b2f7-947e-49d6-9346-f1d9d7adaab0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "281368a4-5e49-4746-84f3-908afdb2b562")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "8fc0fd8c-a43d-4e92-9e0f-e3beadcc7a66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5defee43-56d6-4aa7-9d2b-b2c511d07332")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Jlcpcb_MountingHole:JLCPCB_MountingHole_1.152mm"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "80bdf325-e430-421c-a46f-9b846d6e0560")
+		(at 132.61 56.7)
+		(descr "Mounting Hole 2.1mm, no annular")
+		(tags "mounting hole 2.1mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "975331b9-1319-4454-a984-2fa1f7740959")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.152mm"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "f04821ea-8f7a-4215-988a-18e77af0ba3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dac5fa2e-5383-4c66-8d58-f3f4180047ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9fe359f-cc79-46f3-a6b1-c63f3f7fc2bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "f9d28a96-8dc6-4253-97ac-505198951ac7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a1c2fe2c-4d0e-431e-aebe-91fb89e558b2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "7e074831-c3ec-4fe9-ae97-dfbb976421a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5fb05bbb-5434-4213-aa2a-a8b63e44eb28")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "98e5a17c-e6ee-4214-9d8d-33f60f830766")
@@ -1846,6 +2038,102 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "Jlcpcb_MountingHole:JLCPCB_MountingHole_1.152mm"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "dc6cd2e2-832d-4edd-a5e8-297dba55c628")
+		(at 142.41 89.23)
+		(descr "Mounting Hole 2.1mm, no annular")
+		(tags "mounting hole 2.1mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "e9d62aaa-b339-48cd-8a18-52fe42ac8aea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.152mm"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "b60550a0-a31a-46da-9014-5d2d02d12a19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce063d6b-c7f0-4cdf-8476-8eee1cf62d6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac79d237-92b2-4d2c-bb73-27f0596c86c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "aa19d154-d205-4bd6-9004-f7fa84646a26")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c8cf01d0-9327-49b0-ae14-a67c7676b202")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "61202cf8-5e7b-48e5-956a-abec245c0250")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8293f52c-36b5-433d-b770-96b026fd4d86")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -4343,6 +4631,18 @@
 		(at 122 54.7 90)
 		(layer "F.SilkS")
 		(uuid "d38bd22f-0b66-4b40-83e0-2673a962f127")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 165.99 84.02 90)
+		(layer "F.SilkS")
+		(uuid "de4b7a94-0be7-4496-b5b4-a57e6164ce70")
 		(effects
 			(font
 				(size 1 1)
