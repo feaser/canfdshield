@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pragmalin/Development/CanFdShield/hardware/canfdshield.kicad_sch</source>
-    <date>2025-05-14T20:05:35+0200</date>
+    <date>2025-05-15T15:24:02+0200</date>
     <tool>Eeschema 9.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -83,17 +83,17 @@
     </comp>
     <comp ref="D3">
       <value>Green</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <description>Light emitting diode, small symbol</description>
       <fields>
-        <field name="LCSC">C965804</field>
+        <field name="LCSC">C2297</field>
         <field name="Sim.Pin">1=K 2=A</field>
-        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode, small symbol</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="LCSC" value="C965804"/>
+      <property name="LCSC" value="C2297"/>
       <property name="Sim.Pin" value="1=K 2=A"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="canfdshield.kicad_sch"/>
@@ -197,6 +197,25 @@
       <property name="ki_fp_filters" value="DSUB*Pins*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>05b341c3-6185-4e0c-b99e-2590f3276e00</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>CAN XCVR</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="LCSC">C2691448</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2691448"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="canfdshield.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>804f77d3-f8b1-413a-9f07-010452f22120</tstamps>
     </comp>
     <comp ref="JP1">
       <value>Rterm</value>
@@ -316,6 +335,26 @@
         <pin num="7" name="7" type="passive"/>
         <pin num="8" name="8" type="passive"/>
         <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x06">
@@ -515,6 +554,7 @@
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="VCC" pintype="power_in"/>
       <node ref="U1" pin="5" pinfunction="VIO" pintype="input"/>
     </net>
@@ -605,10 +645,12 @@
     </net>
     <net code="29" name="FDCAN_RX" class="Default">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="RXD" pintype="tri_state"/>
     </net>
     <net code="30" name="FDCAN_TX" class="Default">
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="TXD" pintype="input"/>
     </net>
     <net code="31" name="GND" class="Default">
@@ -619,6 +661,7 @@
       <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
